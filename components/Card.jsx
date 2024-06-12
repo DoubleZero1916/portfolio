@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 const Card = ({title, desc, img}) => {
   return (
-    <div className="border-t-2 border-t-[#693B93] rounded-[15px] px-[50px] py-[35px] bg-[linear-gradient(to_right,#130428_7%,_#251043_34%,_#38126D_57%,_#261045_85%,#190634_100%)]">
+    <div className="border-t-2 border-t-[#693B93] rounded-[15px] sm:px-[50px] px-[30px] sm:py-[35px] py-[15px] bg-[linear-gradient(to_right,#130428_7%,_#251043_34%,_#38126D_57%,_#261045_85%,#190634_100%)]">
       <div className="flex">
         <div className="pr-[13px]">
           <Image
@@ -22,16 +22,16 @@ const Card = ({title, desc, img}) => {
           <div>
             <div className="pb-[6px]">
               <div>
-                <h3 className={`${poppins.className} font-[600] text-[26px]`}>{title}</h3>
+                <h3 className={`${poppins.className} font-[600] text-[18px] sm:text-[26px]`}>{title}</h3>
               </div>
               <div>
-                <p className={`${poppins.className} font-[500] text-[8px] max-w-[230px]`}>
+                <p className={`${poppins.className} font-[500] text-[6px] sm:text-[8px] max-w-[230px]`}>
                   {desc}
                 </p>
               </div>
             </div>
             <div className="pt-[6px]">
-              <button className="bg-[#2C1250] border-[#693B93] rounded-[10px] px-[30px] py-[10px] border-[1px] text-[10px]">Learn More</button>
+              <button className="bg-[#2C1250] border-[#693B93] rounded-[10px] w-full sm:w-auto sm:px-[30px] py-[10px] sm:py-[10px] border-[1px] text-[8px] sm:text-[10px]">Learn More</button>
             </div>
           </div>
         </div>

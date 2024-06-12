@@ -24,9 +24,9 @@ export default function Home() {
         <title>Oqtay Hashimli</title>
       </Head>
       {/* <main> */}
-      <div className="px-[20px] pt-[100px] pb-[115px]"> {/* pb-[100px] only for test */}
+      <div className="px-[20px] md:pt-[100px] pt-[50px] pb-[58px] md:pb-[115px]"> {/* pb-[100px] only for test */}
         <div className="m-auto max-w-[1200px]">
-          <section className="pb-[85px]"> {/* ABOUT SECTION */}
+          <section className="md:pb-[85px] pb-[43px]"> {/* ABOUT SECTION */}
             <div className={`${preahvihear.className} pb-[50px]`}>
               <div className="flex">
                 <div className="pr-[25px]">
@@ -60,14 +60,14 @@ export default function Home() {
             </div>
             <div className={`${preahvihear.className} pt-[50px]`}>
               <div className="pb-[35px]">
-                <div className="text-[50px]">
+                <div className="text-[30px] sm:text-[50px]">
                   <h2 className="inline">I&apos;m a Full Stack Developer.</h2><span>|</span>
                 </div>
-                <div> { /* API Admin panel */ }
+                <div className="sm:text-[16px] text-[12px]"> { /* API Admin panel */ }
                   Currently, I&apos;m a Full Stack Developer at <span className="text-[#0ff0ff]">Karabakh University</span>, 
                 </div>
               </div>
-              <div className="pt-[35px] max-w-[890px] text-[22px]">
+              <div className="pt-[35px] max-w-[890px] text-[18px] sm:text-[22px]">
                 <p>
                   A self-taught UI/UX designer, functioning in the industry for 3+ years now.
                   I make meaningful and delightful digital products that create an equilibrium
@@ -76,33 +76,33 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="pt-[85px] pb-[80px]">
+          <section className="md:pt-[85px] pt-[43px] pb-[40px] md:pb-[80px]">
             <div>
               <div className="pb-[20px]">
                 <h2 className={`${preahvihear.className} text-[40px]`}>Work Experience</h2>
               </div>
               <div className="pt-[20px]"> {/* API admin panel */}
-                <div className="grid grid-cols-2 gap-5 pb-[9px]">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-5 pb-[9px]">
                   <Card img={`skills1`} title={`Front-end Developer`} desc={`Take your client onboard seamlessly by our amazing tool of digital onboard process.`} />
                   <Card img={`skills2`} title={`Back-end Developer`} desc={`Take your client onboard seamlessly by our amazing tool of digital onboard process.`} />
                 </div>
-                <div className="grid grid-cols-2 gap-5 pt-[9px]">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-5 pt-[9px]">
                   <Card img={`skills3`} title={`Full-stack Developer`} desc={`Take your client onboard seamlessly by our amazing tool of digital onboard process.`} />
                   <Card img={`skills4`} title={`NASA`} desc={`Take your client onboard seamlessly by our amazing tool of digital onboard process.`} />
                 </div>
               </div>
             </div>
           </section>
-          <section className="pt-[80px] pb-[95px]">
+          <section className="md:pt-[80px] pt-[40px] pb-[48px] md:pb-[95px]">
             <div className="flex flex-col items-center">
               <div className={`${preahvihear.className} pb-[15px]`}>
                 <div>
-                  <p className="text-center text-[24px]">
+                  <p className="text-center sm:text-[24px] text-[20px]">
                     I&apos;m currently looking to join a <span className="text-[#A362FF]">cross-functional</span> team
                   </p>
                 </div>
                 <div>
-                  <p className="text-center text-[17px]">
+                  <p className="text-center text-[12px] sm:text-[17px]">
                     that values improving people&apos;s lives through accessible design
                   </p>
                 </div>
@@ -126,8 +126,8 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className={`pt-[95px] ${poppins.className}`}>
-            <div className="flex flex-col gap-[210px]"> {/* API admin panel */}
+          <section className={`md:pt-[95px] pt-[48px] ${poppins.className}`}>
+            <div className="flex flex-col gap-[105px] md:gap-[210px]"> {/* API admin panel */}
               <Project
                 title={`Tam Store`}
                 desc={`A web app for visualizing personalized Spotify data. View your
