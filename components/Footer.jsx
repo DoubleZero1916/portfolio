@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='pt-[20px] text-[15px] pb-[10px]'>
             <div className='max-w-[700px] pb-[10px]'>
               <p>
-                I'm currently looking to join a cross-functional team that values improving people's livesthrough accessible design. or have a project in mind? Let's connect.
+                I&apos;m currently looking to join a cross-functional team that values improving people&apos;s livesthrough accessible design. or have a project in mind? Let&apos;s connect.
               </p>
             </div>
             <div className='pt-[10px]'>oqtay07az@gmail.com</div>
