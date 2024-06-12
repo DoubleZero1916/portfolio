@@ -9,13 +9,13 @@ const preahvihear = Preahvihear({
 
 const Footer = () => {
   return (
-    <footer className='pt-[115px] pb-[220px]'> {/* Api for Admin panel */}
+    <footer className='sm:pt-[115px] pt-[58px] pb-[110px] md:pb-[220px]'> {/* Api for Admin panel */}
       <div className='px-[20px]'>
-      <div className={`${preahvihear.className} m-auto max-w-[1200px]`}>
-          <div className='pb-[20px] text-[25px]'>
+        <div className={`${preahvihear.className} m-auto max-w-[1200px]`}>
+          <div className='pb-[20px] text-[20px] sm:text-[25px]'>
             <h4>Contact</h4>
           </div>
-          <div className='pt-[20px] text-[15px] pb-[10px]'>
+          <div className='pt-[20px] text-[12px] sm:text-[15px] pb-[10px]'>
             <div className='max-w-[700px] pb-[10px]'>
               <p>
                 I&apos;m currently looking to join a cross-functional team that values improving people&apos;s livesthrough accessible design. or have a project in mind? Let&apos;s connect.
