@@ -61,10 +61,10 @@ export default function Home() {
             <div className={`${preahvihear.className} pt-[50px]`}>
               <div className="pb-[35px]">
                 <div className="text-[50px]">
-                  <h2 className="inline">I'm a Full Stack Developer.</h2><span>|</span>
+                  <h2 className="inline">I&apos;m a Full Stack Developer.</h2><span>|</span>
                 </div>
                 <div> { /* API Admin panel */ }
-                  Currently, I'm a Full Stack Developer at <span className="text-[#0ff0ff]">Karabakh University</span>, 
+                  Currently, I&apos;m a Full Stack Developer at <span className="text-[#0ff0ff]">Karabakh University</span>, 
                 </div>
               </div>
               <div className="pt-[35px] max-w-[890px] text-[22px]">
@@ -98,12 +98,12 @@ export default function Home() {
               <div className={`${preahvihear.className} pb-[15px]`}>
                 <div>
                   <p className="text-center text-[24px]">
-                    I'm currently looking to join a <span className="text-[#A362FF]">cross-functional</span> team
+                    I&apos;m currently looking to join a <span className="text-[#A362FF]">cross-functional</span> team
                   </p>
                 </div>
                 <div>
                   <p className="text-center text-[17px]">
-                    that values improving people's lives through accessible design
+                    that values improving people&apos;s lives through accessible design
                   </p>
                 </div>
               </div>
